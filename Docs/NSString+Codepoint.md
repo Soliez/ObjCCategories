@@ -8,12 +8,12 @@ NSString+Codepoint adds Python-like [`chr()`](https://docs.python.org/3/library/
 ### Class Methods
 
 -   ```objectivec
-    + (nullable instancetype)stringWithCodePoint:(uint32_t)codePoint```
+    + (nullable instancetype)stringWithCodePoint:(uint32_t)codePoint
     
 ### Instance Methods
 
 -   ```objectivec
-    - (uint32)firstCodePoint```
+    - (uint32)firstCodePoint
     
 -   ```objectivec
     - (BOOL)getFistCodePoint:(uint32_t *)outCodePoint
