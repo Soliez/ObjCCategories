@@ -10,9 +10,24 @@
 		03C56EB92F84A0200005496C /* libObjCCategories.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libObjCCategories.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		03C56ED32F84A7990005496C /* Exceptions for "Sources" folder in "ObjCCategories" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"ObjCCategoriesFoundation/NSString+Codepoint.h",
+				"ObjCCategoriesFoundation/NSString+Codepoint.m",
+				ObjCCategoriesFoundation/ObjCCategoriesFoundation.h,
+			);
+			target = 03C56EB82F84A0200005496C /* ObjCCategories */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		03C56EC52F84A1D20005496C /* Sources */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				03C56ED32F84A7990005496C /* Exceptions for "Sources" folder in "ObjCCategories" target */,
+			);
 			path = Sources;
 			sourceTree = "<group>";
 		};
