@@ -11,9 +11,19 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		03C56EBB2F84A0200005496C /* ObjCCategories */ = {
+		03C56EC52F84A1D20005496C /* Sources */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ObjCCategories;
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		03C56EC62F84A1DB0005496C /* Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		03C56EC72F84A1E50005496C /* Docs */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Docs;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +42,9 @@
 		03C56EB02F84A0200005496C = {
 			isa = PBXGroup;
 			children = (
-				03C56EBB2F84A0200005496C /* ObjCCategories */,
+				03C56EC72F84A1E50005496C /* Docs */,
+				03C56EC62F84A1DB0005496C /* Tests */,
+				03C56EC52F84A1D20005496C /* Sources */,
 				03C56EBA2F84A0200005496C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,9 +81,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				03C56EBB2F84A0200005496C /* ObjCCategories */,
 			);
 			name = ObjCCategories;
 			packageProductDependencies = (
